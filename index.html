@@ -29,11 +29,16 @@
     <h2>Choose a location:</h2>
     <button onclick="startHunt()">Start Treasure Hunt</button>
 
-    <audio id="background-music" loop>
+    <!-- 背景音乐 -->
+    <audio id="background-music" autoplay loop>
         <source src="background-music.mp3" type="audio/mp3">
         您的浏览器不支持音频播放。
     </audio>
-    <button onclick="playMusic()">播放背景音乐</button>
+
+    <script src="treasure.js"></script>
+</body>
+</html>
+
     
     <script>
         function playMusic() {
